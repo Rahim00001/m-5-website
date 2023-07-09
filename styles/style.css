@@ -5,6 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .orange{
     color: #FD6E0A;
@@ -38,4 +39,19 @@ nav li a{
     color: var(--dark-02, #474747);
     font-family: Open Sans;
     font-size: 20px;
+}
+
+/* header css */
+
+.header{
+    background-color: #FFF8F3;;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display:flex ;
+    align-items: center;
+}
+.banner-img{
+    width: 584px;
+    height: 676px;
 }
