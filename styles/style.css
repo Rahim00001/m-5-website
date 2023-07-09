@@ -192,3 +192,37 @@ main section {
   text-align: center;
   margin-top: 40px;
 }
+/* fotter style */
+footer {
+  background: #fff8f3;
+}
+.footer-container {
+  display: flex;
+  padding: 130px 200px;
+  margin-top: 80px;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.connect-desc {
+  line-height: 28px;
+  max-width: 562px;
+}
+.connect-icon {
+  padding: 20px 0px;
+}
+.connect-icon a {
+  margin-right: 24px;
+  text-align: left;
+}
+.contact input,
+textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+}
